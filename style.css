@@ -367,10 +367,20 @@ header{
 
 /*Footer*/
 footer{
-	padding-top: 3vw;
-	padding-bottom: 3vw;
+	padding-top: 2vw;
+	padding-bottom: 1vw;
 	text-align: center;
 	background-color: #f7ebcf;
+}
+
+footer table{
+	margin: auto;
+	margin-bottom: 20px;
+	border-spacing: 5px;
+}
+
+footer table td{
+	width: 500px;
 }
 
 footer h1{
@@ -384,18 +394,37 @@ footer h5{
 	font-size: calc(12px + 0.4vw);
 }
 
+footer h6{
+	font-size: calc(9px + 0.2vw);
+}
+
+footer h6 .icon-facebook{
+	color: #3b5998;
+	font-size: 25px;
+}
+
+#OwnerOfThePage{
+	font-size: calc(7px + 0.2vw);
+	color: slategray;
+	line-spacing: 2px;
+	text-align: center;
+}
+
 #button{
 	display: inline-block;
 	background-color: #17ae92;
-	width: 50px;
+	width: 70px;
 	height: 50px;
+	border-radius: 10px;
+	box-shadow: 2px 2px #666666;
 	text-align: center;
 	color: white;
 	
 }
 
 #button:hover {
-  background-color: #055949;
+  	background-color: #055949;
+	transition: 0.3s ease-in;
 }
 
 
